@@ -1,14 +1,19 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA264)
 
-# Session ID - Session Title
+# DA264 - Cross-Cloud Modeling with SAP Datasphere and Hyperscaler Data Sources
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called DA264 - Cross-Cloud Modeling with SAP Datasphere and Hyperscaler Data Sources. 
 
 ## Overview
 
-This session introduces attendees to...
+Data on multiple scattered source systems (external and SAP) make analysis of category performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
+
+This session introduces attendees the Unified data federation architecture allows customers to combine external data sources (Google Analytics and Google BigQuery) with SAP data sources for live category analysis without business data replication and with state-of-the-art performance in one central location.
+
+You are going to analyze Category Performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts and stock data from SAP System.
+With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this Hand-on session you can combine their Big Query and SAP data to derive new insights 
 
 ## Requirements
 
