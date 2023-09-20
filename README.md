@@ -19,6 +19,13 @@ With a data federation architecture, it is possible to leave data in its source 
 
 The requirements to follow the exercises in this repository are...
 
+1) SAP Datasphere Instance - [You may use SAP Datasphere Free Tier.](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
+2) Google Cloud Platform account [Create a Google Cloud Platform Trial account.](https://cloud.google.com/free) with relevant authorization for user to use Google BigQuery
+3) Google BigQuery Service Instance with your web Google Analytics Data (you can also follow along by copying the public Google Analytics set into your BigQuery space) 
+4) Demo data for executing/deploying the application of this mission
+Attached is a demo CSV file that can be referenced for what S4 data might look like in the source system. Data is based on the Google Analytics public data set. For productive use, typically a connection to an SAP backend is required:
+5) SAP source (S/4HANA, Marketing Cloud, etc) containing desired data. Data examples: Discount Information Stock Data Additional Sales Information Connecting SAP source to Datasphere is not part of this mission but please refer to the above links for how to do so.
+
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
