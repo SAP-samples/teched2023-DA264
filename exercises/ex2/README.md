@@ -208,7 +208,7 @@ Your objective is to create input controls that allow users to filter the data d
 ![Input Control](images/inputcontrol2.png)
 
 <details>
-  <summary>Solution</summary>
+  <summary>Solution- Exercise 2.6</summary>
 
 Finally, after having the charts, you can add some input controls to filter the data displayed on the dashboard 
 
