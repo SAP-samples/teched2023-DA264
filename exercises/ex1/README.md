@@ -1,9 +1,8 @@
-# Exercise 1 - Build and expose data views on SAP Datasphere
+# Build and expose data views on SAP Datasphere
 
 In this exercise, your objective is to create and display data views on SAP Datasphere by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves leveraging the rich data stored in BigQuery and integrating it into your SAP Datasphere for analysis and reporting purposes. At the end of the exercise, the created views will be exposed and can be accessed from SAP Analytics Cloud(SAC) to build interactive dashboards and generate valuable insights. By combining the capabilities of SAP Datasphere and SAP Analytics Cloud, you can gain a holistic view of your data, facilitating well-informed decision-making.
 
-
-## Exercise 1.1 Creating a new view of "Product Sales Country"
+## Exercise 1 Creating a new view of "Product Sales Country"
 
 The exercise is to build a new data view called **"Product Sales Country"** by combining and aggregating the **"Sessions Hits by Country"** and **"Product Sales"** views. This involves joining the two views to create a holistic view of the sales data and aggregating it by country to provide insights into product sales trends by location.
 
@@ -22,9 +21,9 @@ Your goal is to navigate through these steps and create a detailed data view tha
 
 ![New View](images/V_Product_Sales_Country.png)
 
-Refer to the provided solution below for a detailed, step-by-step guide on how to complete Exercise 1.1.
-<details>
-  <summary>Solution- Exercise 1.1</summary>
+### Step by Step Solution Guide
+
+Refer to the provided solution below for a detailed, step-by-step guide on how to complete Exercise 1.
 
 1. 👉 Open your [SAP Datasphere](https://a4d7e443-c962-4380-a0cb-53e3d6aca317.ap11.hcs.cloud.sap/dwaas-ui/index.html#/home) using the provided credentials.
 
@@ -101,119 +100,9 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
     
       ![Save](images/SaveView.png)
 
-</details>
+## Congratulations!
 
-## Exercise 1.2 Creating a new view of "Product Sales Country Discount"
-This exercise focuses on creating a new data view called **"Product Sales Country Discount"**. This view will be created by joining **"Product Sales Country"** with the **"Discount by Category Date"** view, which is federated from the SAP S/4HANA system. The purpose of this process is to combine the data from the two views to create a comprehensive view of product sales and discounts by country and date. The resulting **"Product Sales Country Discount"** view will provide valuable insights into sales trends, allowing you to make informed decisions about promotions and discounts.
+Congratulations on completing your Exercise 1! You have successfully created a new view of "Product Sales Country"!
 
-To complete this exercise, you will need to follow these steps:
-
-1. Join the "Product Sales Country" view with the "Discount by Category Date" view, using a common field such as "Date" and "category"
-   >HINT: you need to create a LEFT Join
-2. Identify the missing measures from the attributes and move them to measures
-   >HINT: attributes: Sessions, Hits
-3. Create an **Association** of the final view to **Time Dimension - Day**
-   >HINT: you need to map following attribute: DATE
-
-Your goal is to navigate through these steps and create a comprehensive data view that accurately reflects product sales and discounts by country and date. Best of luck!
-
-![New View](images/V_Product_Sales_Country_Discount.png)
-
-Refer to the provided solution below for a detailed, step-by-step guide on how to complete Exercise 1.2.
-<details>
-  <summary>Solution- Exercise 1.2</summary>
-1. 👉 Go to **SAP Datasphere Data Builder** and create **New Graphical View**
-    
-![New View](images/V_Data_Builder.png)
-
-2. 👉 Open the **Shared Objects** from Repository, expand the views and drag and drop the **"discount_by_category_date_view"** into the canvas.
-
-3. 👉 Open the **Views** from the Repository and drop the **"Product_Sales_Country"** view into the canvas.
-   
-    ![New View](images/view2tables.png)
-
-4. 👉 Drag and move **discount_by_category_date_view** on top of **Product_Sales_Country** to create a **JOIN**
-   
-    ![Join](images/join3.png)
-
-
-5. 👉 Define the following **JOIN** conditions:
-    
-    - Join Type: *Left*
-    - Mappings (see screenshot): Date->Date, Product_Category_Enhanced_Ecommerce->category
-   
-    ![Join](images/join3map.png)
-
-
-6. 👉 Keep the Projection columns unchanged
-
-7. 👉 Finalyse the view by giving a name, semantic type and expose for consumption
-    
-    - Business Name: *Product_Sales_Country_Discount*
-    - Technical Name: *Product_Sales_Country_Discount*
-    - Semantic Usage: *Fact*
-    - Expose for Consumption: *On*
-   
-    ![Join](images/finalview2.png)
-
-8. 👉 Move **Sessions** and **Hits** attributes to **Measures**
-    
-    ![Join](images/att_meas.png)
-
-
-9. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
-    
-    ![Join](images/association2.png)
-
-10. 👉 Create the following mapping: **DATE->Date**
-    
-    ![Join](images/assoc_mapping2.png)
-
-11. 👉 Save and deploy the **Product_Sales_Country_Discount** view
-    
-    ![Save](images/SaveView.png)
-</details>
-
-## Exercise 1.3 Creating a new analytical model for "Product Sales Country Discount"
-This exercise focuses on creating a new analytical model called **"Product Sales Country Discount"**. This model will be created by importing **"Product Sales Country Discount"** View to expose data for visualisation in SAP Analytics Cloud.
-
-To complete this exercise, you will need to follow these steps:
-1. Import all the measures and dimensions of  **"Product Sales Country Discount"** View.
-
-2. Finalyse the analytical model by giving a name relevant to the **"Product Sales Country Discount"** View.
-
-Your goal is to navigate through these steps and create an analytical model for **"Product Sales Country Discount"** view that will be used for consumption. Best of luck!
-
-![New View](images/finalmodel.png)
-
-Refer to the provided solution below for a detailed, step-by-step guide on how to complete Exercise 1.3.
-<details>
-  <summary>Solution- Exercise 1.3</summary>
-1. 👉 Go to **SAP Datasphere Data Builder** and create **New Analytical Model**
-
-![New AM](images/NewAnalyticalModel.png)
-
-2. 👉 Open the **Views** from the Repository and drop the **"Product_Sales_Country_Discount"** view into the canvas.
-
-      ![Model](images/NewModel.png)
-
-3. 👉 In the **Select Properties To Be Copied**, check the **Add all attributes to analytic model**, **Add all measures to analytic model** and **Associated Dimensions** checkbox and Click on **Import**
-
-4. 👉 Finalyse the analytical model by giving a name
-    
-    - Business Name: *AM_Product_Sales_Country_Discount*
-    - Technical Name: *AM_Product_Sales_Country_Discount*
-
-      ![Model](images/ModelName.png)
-
-5. 👉 Save and deploy the **AM_Product_Sales_Country_Discount** analytical model
-
-      ![Model](images/SaveDeploy.png)
-</details>
-
-## Summary
-
-You've now created two views and one analytical model in SAP Datashpere. The analytical model "Product Sales by Country and Discount" will be utilized by SAP Analytics Cloud to create a dashboard. This analytical model provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions.
-
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Let's continue to - [Exercise 2 - Creating a new view of "Product Sales Country Discount""](../ex2/README.md)
 
