@@ -1,4 +1,4 @@
-## Exercise 2 Creating a new view of "Product Sales Country Discount"
+# Exercise 2- Creating a new view of "Product Sales Country Discount"
 This exercise focuses on creating a new data view called **"Product Sales Country Discount"**. This view will be created by joining **"Product Sales Country"** with the **"Discount by Category Date"** view, which is federated from the SAP S/4HANA system. The purpose of this process is to combine the data from the two views to create a comprehensive view of product sales and discounts by country and date. The resulting **"Product Sales Country Discount"** view will provide valuable insights into sales trends, allowing you to make informed decisions about promotions and discounts.
 
 To complete this exercise, you will need to follow these steps:
@@ -73,4 +73,4 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
 Congratulations on completing your Exercise 2! You have successfully created a new view of "Product Sales Country Discount"!
 
-Continue to - [Exercise 3 - Creating a new analytical model for "Product Sales Country Discount"](../ex3/README.md)
+Let's Continue to - [Exercise 3 - Creating a new analytical model for "Product Sales Country Discount"](../ex3/README.md)

@@ -1,4 +1,4 @@
-## Exercise 3 Creating a new analytical model for "Product Sales Country Discount"
+# Exercise 3- Creating a new analytical model for "Product Sales Country Discount"
 This exercise focuses on creating a new analytical model called **"Product Sales Country Discount"**. This model will be created by importing **"Product Sales Country Discount"** View to expose data for visualisation in SAP Analytics Cloud.
 
 To complete this exercise, you will need to follow these steps:
@@ -43,4 +43,4 @@ You've now created two views and one analytical model in SAP Datashpere. The ana
 
 Congratulations on completing your Exercise 3! You have successfully created a new analytical model for "Product Sales Country Discount"!
 
-Continue to - [Exercise 4 - Creating the Layout for the Category Management Dashboard](../ex4/README.md)
+Let's Continue to - [Exercise 4 - Creating the Layout for the Category Management Dashboard](../ex4/README.md)
