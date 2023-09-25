@@ -34,8 +34,7 @@ This exercise focuses on creating the layout for a Category Management Dashboard
 
 This exercise focuses on adding the **"Product_Sales_Country_Discount"** view from SAP Datasphere as a data source in SAP SAC.
 
-<details>
-  <summary>Solution- Exercise 2.2</summary>
+### Step by Step Solution Guide
 
 1. 👉 Go to the **Tools** and press **Add new Data**, then select **Data from an existing dataset or model**
     

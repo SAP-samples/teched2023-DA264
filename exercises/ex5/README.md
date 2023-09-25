@@ -135,7 +135,7 @@ Your objective is to create a chart that accurately displays the sales quantity 
 
    ![SAC Chart](images/sacchart3.png)
 
-   ## Congratulations!
+## Congratulations!
 
 Congratulations on completing your Exercise 3! You have successfully created a new analytical model for "Product Sales Country Discount"!
 
