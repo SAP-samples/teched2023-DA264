@@ -1,8 +1,8 @@
-# Build and expose data views on SAP Datasphere
+# Exercise 1- Build and expose data views on SAP Datasphere
 
 In this exercise, your objective is to create and display data views on SAP Datasphere by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves leveraging the rich data stored in BigQuery and integrating it into your SAP Datasphere for analysis and reporting purposes. At the end of the exercise, the created views will be exposed and can be accessed from SAP Analytics Cloud(SAC) to build interactive dashboards and generate valuable insights. By combining the capabilities of SAP Datasphere and SAP Analytics Cloud, you can gain a holistic view of your data, facilitating well-informed decision-making.
 
-## Exercise 1- Creating a new view of "Product Sales Country"
+## Exercise 1.1- Creating a new view of "Product Sales Country"
 
 The exercise is to build a new data view called **"Product Sales Country"** by combining and aggregating the **"Sessions Hits by Country"** and **"Product Sales"** views. This involves joining the two views to create a holistic view of the sales data and aggregating it by country to provide insights into product sales trends by location.
 

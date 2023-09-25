@@ -97,7 +97,7 @@ Similar to the previous approach create another chart to visualize the **Discoun
    ![SAC Chart](images/sacchart2.png)
 
 
-## Exercise 3.3 Creating the last Chart for displaying **Sales Quantity over Time**
+## Exercise 5.3 Creating the last Chart for displaying **Sales Quantity over Time**
 
 This exercise focuses on creating the last chart for displaying "Sales Quantity over Time" with the variance to the previous period in a dashboard. The purpose of this chart is to provide an overview of the sales quantities over time, allowing users to identify trends and compare them to previous periods.
 

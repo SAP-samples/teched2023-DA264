@@ -28,24 +28,19 @@ Attached is a demo CSV file that can be referenced for what S4 data might look l
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 1 - Build and expose data views on SAP Datasphere](exercises/ex1/)
+    - [Exercise 1.1 - Creating a new view of "Product Sales Country"](exercises/ex1#exercise-1--creating-a-new-view-of-product-sales-country)
+- [Exercise 2 - Creating a new view of "Product Sales Country Discount"](exercises/ex2/)
+- [Exercise 3 - Creating a new analytical model for "Product Sales Country Discount"](exercises/ex3/)
+- [Exercise 4 - Create a Category Management Dashboard on SAP Analytics Cloud](exercises/ex4/)
+    - [Exercise 4.1 - Creating the Layout for the Category Management Dashboard](exercises/ex4#exercise-41-creating-the-layout-for-the-category-management-dashboard)
+    - [Exercise 4.2 - Assigning the data from SAP Datasphere to Dashboard](exercises/ex4#exercise-42-assigning-the-data-from-sap-datasphere-to-dashboard)
+- [Exercise 5 - Creating the Charts in Category Management Dashboard for displaying Data](exercises/ex5/)
+    - [Exercise 5.1 - Creating the first Chart for displaying **Quantity per Product Category**](exercises/ex4#exercise-51-creating-the-first-chart-for-displaying-quantity-per-product-category)
+    - [Exercise 5.2 - Creating another Chart for displaying **Discount per Product Category**](exercises/ex5#exercise-52-creating-another-chart-for-displaying-discount-per-product-category)
+    - [Exercise 5.3 - Creating the last Chart for displaying **Sales Quantity over Time** ](exercises/ex5#exercise-53-creating-the-last-chart-for-displaying-sales-quantity-over-time)
+- [Exercise 6 - Creating **Input Controls** for the dashboard](exercises/ex6/)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
