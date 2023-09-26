@@ -28,8 +28,6 @@ This exercise focuses on creating the layout for a Category Management Dashboard
  
     ![Layout](images/saclayout.png)
 
-</details>
-
 ## Exercise 4.2 Assigning the data from SAP Datasphere to Dashboard
 
 This exercise focuses on adding the **"Product_Sales_Country_Discount"** view from SAP Datasphere as a data source in SAP SAC.
@@ -50,6 +48,6 @@ This exercise focuses on adding the **"Product_Sales_Country_Discount"** view fr
 
 ## Congratulations!
 
-Congratulations on completing your Exercise 3! You have successfully created a new analytical model for "Product Sales Country Discount"!
+Congratulations on completing your Exercise 4! You have successfully created a new analytical model for "Product Sales Country Discount"!
 
 Let's Continue to - [Exercise 5 - Creating the Charts in Category Management Dashboard for displaying Data](../ex5/README.md)
