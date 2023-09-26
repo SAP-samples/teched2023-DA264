@@ -41,8 +41,6 @@ After assigning the dataset, you can start building your first charts
 
    ![SAC Chart](images/chart1ready.png)
 
-</details>
-
 ## Exercise 5.2 Creating another Chart for displaying **Discount per Product Category**
 
 This exercise focuses on creating another chart for displaying **"Discount per Product Category"** in a dashboard. The purpose of this chart is to provide an overview of the product categories with the highest discounts applied, allowing users to identify trends and opportunities for improvement.
@@ -63,7 +61,7 @@ Your objective is to create a chart that accurately displays the discount by pro
 
 Similar to the previous approach create another chart to visualize the **Discount** per Product Category**
 
-1. 👉 Drag and drop from the left panel a **Chart** widget into the secound container
+1. 👉 Drag and drop from the left panel a **Chart** widget into the second container
 
    ![SAC Chart](images/sacchart2drag.png)
 
@@ -137,6 +135,6 @@ Your objective is to create a chart that accurately displays the sales quantity 
 
 ## Congratulations!
 
-Congratulations on completing your Exercise 3! You have successfully created a new analytical model for "Product Sales Country Discount"!
+Congratulations on completing your Exercise 5! You have successfully created Charts in Category Management Dashboard for displaying Data!
 
 Let's Continue to - [Exercise 6 - Creating the Charts in Category Management Dashboard for displaying Data](../ex6/README.md)
