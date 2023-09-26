@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA264)
+![image](https://github.com/SAP-samples/teched2023-DA264/assets/64686397/1473c7f5-4774-4109-9c8e-edfe8112f374)[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA264)
 
 # DA264 - Cross-Cloud Modeling with SAP Datasphere and Hyperscaler Data Sources
 
@@ -15,16 +15,14 @@ This session introduces attendees the Unified data federation architecture allow
 You are going to analyze Category Performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts and stock data from SAP System.
 With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this Hand-on session you can combine their Big Query and SAP data to derive new insights 
 
-## Requirements
+## Requirements/ Existing Setup
 
-The requirements to follow the exercises in this repository are...
+The requirements/ Existing SetUp to follow the exercises in this repository are:
 
-1) SAP Datasphere Instance - [You may use SAP Datasphere Free Tier.](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
-2) Google Cloud Platform account [Create a Google Cloud Platform Trial account.](https://cloud.google.com/free) with relevant authorization for user to use Google BigQuery
-3) Google BigQuery Service Instance with your web Google Analytics Data (you can also follow along by copying the public Google Analytics set into your BigQuery space) 
-4) Demo data for executing/deploying the application of this mission
-Attached is a demo CSV file that can be referenced for what S4 data might look like in the source system. Data is based on the Google Analytics public data set. For productive use, typically a connection to an SAP backend is required:
-5) SAP source (S/4HANA, Marketing Cloud, etc) containing desired data. Data examples: Discount Information Stock Data Additional Sales Information Connecting SAP source to Datasphere is not part of this mission but please refer to the above links for how to do so.
+1) SAP Datasphere Instance already available and configured with spaces and users to explore the provided data model
+2) SAP Analytics Cloud already setup and configured for analyzing and visualizing the order fill percentage.
+3) You will work with a sample Databricks dataset. To analyze and compare the shipped units with respect to the total units ordered in the sales orders, we will be using the shipment and delivery data from Databricks delta lake which is federated and combined with customer and sales order master data from SAP systems into a unified model used for efficient using SAP Datasphere and SAP Analytics cloud for real-time analytics. 
+4) In the "Connections" section of SAP Datasphere we already created live connectivity to AWS Databricks and have already running DP Agent on a separate machine for real-time data. This connection is used in the Hands-on session to create data views on remote tables from AWS Databricks.
 
 ## Exercises
 
