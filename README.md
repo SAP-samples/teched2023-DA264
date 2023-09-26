@@ -1,4 +1,4 @@
-![image](https://github.com/SAP-samples/teched2023-DA264/assets/64686397/1473c7f5-4774-4109-9c8e-edfe8112f374)[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA264)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA264)
 
 # DA264 - Cross-Cloud Modeling with SAP Datasphere and Hyperscaler Data Sources
 
