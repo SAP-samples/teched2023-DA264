@@ -48,6 +48,6 @@ This exercise focuses on adding the **"Product_Sales_Country_Discount"** view fr
 
 ## Congratulations!
 
-Congratulations on completing your Exercise 4! You have successfully created a new analytical model for "Product Sales Country Discount"!
+Congratulations on completing your Exercise 4! You have successfully created the layout for "Category Management Dashboard" and assigned data from SAP Datasphere to Dashboard!
 
 Let's Continue to - [Exercise 5 - Creating the Charts in Category Management Dashboard for displaying Data](../ex5/README.md)
