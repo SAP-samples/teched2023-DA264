@@ -15,14 +15,17 @@ This session introduces attendees the Unified data federation architecture allow
 You are going to analyze Category Performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts and stock data from SAP System.
 With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this Hand-on session you can combine their Big Query and SAP data to derive new insights 
 
-## Requirements/ Existing Setup
+## Requirements
 
 The requirements/ Existing SetUp to follow the exercises in this repository are:
 
-1) SAP Datasphere Instance already available and configured with spaces and users to explore the provided data model
-2) SAP Analytics Cloud already setup and configured for analyzing and visualizing the order fill percentage.
-3) You will work with a sample Databricks dataset. To analyze and compare the shipped units with respect to the total units ordered in the sales orders, we will be using the shipment and delivery data from Databricks delta lake which is federated and combined with customer and sales order master data from SAP systems into a unified model used for efficient using SAP Datasphere and SAP Analytics cloud for real-time analytics. 
-4) In the "Connections" section of SAP Datasphere we already created live connectivity to AWS Databricks and have already running DP Agent on a separate machine for real-time data. This connection is used in the Hands-on session to create data views on remote tables from AWS Databricks.
+1. A [SAP Datasphere System](https://www.sap.com/india/products/technology-platform/datasphere.html), configured with spaces and users with assigned roles. 
+To get started, sign up for your [SAP Datasphere free tier tenant.](https://www.sap.com/products/technology-platform/datasphere/trial.html)
+
+2. A [SAP Analytics Cloud account](https://www.sap.com/india/products/technology-platform/cloud-analytics.html) with live data connections to SAP Datasphere system to access SAP Datasphere Analytic Model or Perspective within SAP Analytics Cloud.
+To get started, sign up for your [SAP Analytics Cloud Trial.](https://www.sap.com/products/technology-platform/cloud-analytics/trial.html)
+
+3. A [Google cloud account](https://cloud.google.com) with a google cloud project enabled with the BigQuery API. If you're new to Google Cloud, [create a Google cloud account](https://cloud.google.com/free/) and create a [Google Cloud project](https://developers.google.com/workspace/guides/create-project). For new Projects, the BigQuery the BigQuery API is automatically enabled. 
 
 ## Exercises
 
