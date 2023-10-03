@@ -102,6 +102,9 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Join](images/viewfinal.png)
 
+      > Note: Incase of **Delayed Data Viewing** message, scroll down and click on **View Data**.
+      > ![New View](images/viewdata.png)
+
 15. 👉 Save and deploy the **Product_Sales_Country** view
     
       ![Save](images/SaveView.png)
