@@ -31,7 +31,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Model](images/ModelName.png)
 
-5. 👉 Save and deploy the **AM_Product_Sales_Country_Discount** analytical model
+5. 👉 Save and deploy the **AM_Product_Sales_Country_Discount** analytical model which will be further consumed in SAC to visualize data.
 
       ![Model](images/SaveDeploy.png)
 
