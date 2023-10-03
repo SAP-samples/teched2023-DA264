@@ -65,6 +65,12 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
     
     ![Join](images/assoc_mapping2.png)
 
+14. 👉 Now as we have successfully created the new view "Product Sales Country Discount".
+
+       To view the final data in **Product_Sales_Country_Discount** view, click on the **Data Viewer Icon**.
+
+      ![Join](images/viewfinal2.png)
+
 11. 👉 Save and deploy the **Product_Sales_Country_Discount** view
     
     ![Save](images/SaveView.png)
