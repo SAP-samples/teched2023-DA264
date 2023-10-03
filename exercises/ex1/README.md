@@ -96,7 +96,13 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
     
       ![Join](images/assoc_mapping2.png)
 
-14. 👉 Save and deploy the **Product_Sales_Country** view
+14. 👉 Now as we have successfully created the new view "Product Sales Country".
+
+       To view the final data in **Product_Sales_Country** view, click on the **Data Viewer Icon**.
+
+      ![Join](images/viewfinal.png)
+
+15. 👉 Save and deploy the **Product_Sales_Country** view
     
       ![Save](images/SaveView.png)
 
