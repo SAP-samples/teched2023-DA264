@@ -79,7 +79,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Join](images/join2map.png)
 
-11. 👉 Finalyse the view by giving a name, semantic type and expose for consumption
+11. 👉 Finalise the view by giving a name, semantic type and expose for consumption
     
     - Business Name: *Product_Sales_Country*
     - Technical Name: *Product_Sales_Country*
