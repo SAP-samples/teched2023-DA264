@@ -43,7 +43,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
 6. 👉 Keep the Projection columns unchanged
 
-7. 👉 Finalyse the view by giving a name, semantic type and expose for consumption
+7. 👉 Finalise the view by giving a name, semantic type and expose for consumption
     
     - Business Name: *Product_Sales_Country_Discount*
     - Technical Name: *Product_Sales_Country_Discount*
