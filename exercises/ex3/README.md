@@ -24,7 +24,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
 3. 👉 In the **Select Properties To Be Copied**, check the **Add all attributes to analytic model**, **Add all measures to analytic model** and **Associated Dimensions** checkbox and Click on **Import**
 
-4. 👉 Finalyse the analytical model by giving a name
+4. 👉 Finalise the analytical model by giving a name
     
     - Business Name: *AM_Product_Sales_Country_Discount*
     - Technical Name: *AM_Product_Sales_Country_Discount*
