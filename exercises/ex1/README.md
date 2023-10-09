@@ -63,7 +63,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
       - Business Name: *DATESTR*
       - Technical Name: *DATESTR*
       - Data Type: *String*
-      - Lenght: *10*
+      - Length: *10*
       - Expression: *TO_NVARCHAR(DATE, 'YYYYMMDD')*
 
       ![Join](images/cc_column_properties.png)
