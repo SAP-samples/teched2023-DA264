@@ -45,11 +45,11 @@ The below diagram shows the final result of the view which is essential for the 
 
 >You can once again visually see the remote tables from BigQuery and SAP S/4HANA
 
->In a diagram is also marked the views, which you will create in challanges yourself
+>In a diagram is also marked the views, which you will create in challenges yourself
 
 ![Final View](./images/finalview.png)
 
-You can find the shared views and tables in **Repository Explorer**. Those shared objects should be used in **Challange 1** to model the new views.
+You can find the shared views and tables in **Repository Explorer**. Those shared objects should be used in **Challenge 1** to model the new views.
 
 ![repositoryexplorer](./images/repositoryexplorer.png)
 
