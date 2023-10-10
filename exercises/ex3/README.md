@@ -22,7 +22,12 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Model](images/NewModel.png)
 
-3. 👉 In the **Select Properties To Be Copied**, check the **Add all attributes to analytic model**, **Add all measures to analytic model** and **Associated Dimensions** checkbox and Click on **Import**
+3. 👉 In the **Select Properties To Be Copied**, check all of these 
+      - **Add all attributes to analytic model**, 
+      - **Add all measures to analytic model** 
+      - **Associated Dimensions** checkbox
+      
+      and then Click on **Import**
 
       ![prop](images/add_prop.png)
 
