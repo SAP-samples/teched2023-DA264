@@ -72,8 +72,8 @@ Similar to the previous approach create another chart to visualize the **Discoun
 
 3. 👉 Add a new **Calculation** as a **Measure**
     - Type: **Calculated Measure**
-    - Name: **DiscountC**
-    - Formula: **["AM_Product_Sales_Country_Discount":discount]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 1)
+    - Name: **DiscountCalc**
+    - Formula: **(["AM_Product_Sales_Country_Discount":discount]/["AM_Product_Sales_Country_Discount":Unique_Purchases])\*100** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 1)
 
    ![SAC Chart](images/chart2calculatedc.png)
 
@@ -89,6 +89,10 @@ Similar to the previous approach create another chart to visualize the **Discoun
 6. 👉 Exclude the **(not set)** and **${productitem.product.origCatName}** attributes by selecting them and pressing **X**
 
    ![SAC Chart](images/char2exclude.png)
+
+8. 👉 Change the color of the chart to make it different from previous one by going into Color option in Builder, then select your choice of color.
+
+   ![SAC Chart](images/changecolor.png)
 
 7. 👉 Give some proper name ("Discount per Product Category") and your second chart is ready. Optionally you can add a reference line for the average discount.
 

@@ -46,10 +46,6 @@ Below you can find the final result of your dashboard:
 
 You can add more charts to the dashboard at any time to extend its capabilities and better meet the business requirements. The SAP Analytics Cloud platform offers a wide range of chart options, making it possible to display data in a variety of ways to suit different needs and preferences.
 
->An example of more extensive dashboard can be found below
-
- ![SAC Result](images/result2.png)
-
 ## Congratulations!
 
 Congratulations! You've now created your first dashboard using SAP Analytics Cloud to gain insights into sales data based on different product categories. Through this hands-on exercise, you learned how to use the platform to create a simple dashboard to analyze and visualize the data. 
