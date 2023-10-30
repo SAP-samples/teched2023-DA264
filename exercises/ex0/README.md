@@ -23,7 +23,7 @@ To achieve this we can use public data sets of Google Analytics. In Google BigQu
 
 ![BigQuery](./images/bigyuerytables.png)
 
-To find out more about BigQuery, its features, and how we configured it for our hands-on scenario, you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_9157A15DC303EFAA:demo).
+To find out more about BigQuery, its features, and how we configured it for our hands-on scenario, you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_E286E93A052C1F91:demo).
 
 ## SAP S/4HANA Sample Sales Data loaded in SAP Datasphere
 
@@ -41,7 +41,7 @@ In the "Connections" section of SAP Datasphere we already created live connectiv
 ![BigQuery](./images/liveconnection.png)
 ![BigQuery](./images/bigqueryconnection.png)
 
-To understand how to Establishing live data integration between Google BigQuery and SAP Datasphere, you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_E286E93A052C1F91:demo).
+To understand how to Establishing live data integration between Google BigQuery and SAP Datasphere, you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_9157A15DC303EFAA:demo).
 
 ## Overview of final view required for Analytics Dashboard
 
