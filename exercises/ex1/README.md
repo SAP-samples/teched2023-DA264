@@ -58,32 +58,19 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
       ![Join](images/join1map.png)
 
 7. 👉 Keep the Projection columns unchanged
-   
-8. 👉 Add new **Calculated Column** (see screenshot below)
 
-      ![Join](images/cc_column.png)
-
-9.  👉 The idea of the calculated column is to have an additional DATE field with *String* data type, which is required for the next join. Add the following properties to the calculated column.
-      - Business Name: *DATESTR*
-      - Technical Name: *DATESTR*
-      - Data Type: *String*
-      - Length: *10*
-      - Expression: *TO_NVARCHAR(DATE, 'YYYYMMDD')*
-
-      ![Join](images/cc_column_properties.png)
-
-10. 👉 Drag and move **Calculated Column** on top of **hits_session_country_view** to create the second **JOIN**
+8. 👉 Drag and move **Projection nide** on top of **hits_session_country_view** to create the second **JOIN**
    
       ![Join](images/join2.png)
 
-11. 👉 Define the following **JOIN** conditions:
+9. 👉 Define the following **JOIN** conditions:
     
       - Join Type: *Inner*
-      - Mappings (see screenshot): DATESTR->DATET, Country->Country
+      - Mappings (see screenshot): DATE->DATE, Country->Country
 
       ![Join](images/join2map.png)
 
-12. 👉 Finalise the view by giving a name, semantic type and expose for consumption
+10. 👉 Finalise the view by giving a name, semantic type and expose for consumption
     
     - Business Name: *Product_Sales_Country*
     - Technical Name: *Product_Sales_Country*
@@ -92,15 +79,15 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
    
       ![Join](images/finalview1.png)
 
-13. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
+11. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
     
       ![Join](images/association2.png)
 
-14. 👉 Create the following mapping: **DATE->Date**
+12. 👉 Create the following mapping: **DATE->Date**
     
       ![Join](images/assoc_mapping2.png)
 
-15. 👉 Now as we have successfully created the new view "Product Sales Country".
+13. 👉 Now as we have successfully created the new view "Product Sales Country".
 
        To view the final data in **Product_Sales_Country** view, click on the **Data Viewer Icon**.
 
@@ -109,7 +96,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
       > Note: Incase of **Delayed Data Viewing** message, scroll down and click on **View Data**, in order to load the data.
       > ![New View](images/viewdata.png)
 
-16. 👉 Save and deploy the **Product_Sales_Country** view
+14. 👉 Save and deploy the **Product_Sales_Country** view
     
       ![Save](images/SaveView.png)
 
