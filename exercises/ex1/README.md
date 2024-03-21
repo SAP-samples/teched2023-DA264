@@ -6,7 +6,7 @@ In this exercise, your objective is to create and display data views on SAP Data
 
 The exercise is to build a new data view called **"Product Sales Country"** by combining and aggregating the **"Sessions Hits by Country"** and **"Product Sales"** views. This involves joining the two views to create a holistic view of the sales data and aggregating it by country to provide insights into product sales trends by location.
 
-To achieve this, you will need to perform the following steps:
+To achieve this, you will need to perform the following steps (A Step by Step guide to perform the below steps follows this list) :
 
 1. Create an inner join of the "Product SKU Transactions" and "Product Sales" data to combine the two views and create a comprehensive view of the sales data
    >HINT: you need to map following attributes: DATE, Product_SKU, transaction_id
@@ -66,7 +66,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Join](images/join2map.png)
 
-9. 👉 Finalise the view by giving a name, semantic type and expose for consumption
+9. 👉 Finalise the view (click on the final node 'View 1') by giving a name , semantic type and expose for consumption.
     
     - Business Name: *Product_Sales_Country*
     - Technical Name: *Product_Sales_Country*
@@ -75,15 +75,15 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
    
       ![Join](images/finalview1.png)
 
-10. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
+12. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
     
       ![Join](images/association2.png)
 
-11. 👉 Create the following mapping: **DATE->Date**
+13. 👉 Create the following mapping: **DATE->Date**
     
       ![Join](images/assoc_mapping2.png)
 
-12. 👉 Now as we have successfully created the new view "Product Sales Country".
+14. 👉 Now as we have successfully created the new view "Product Sales Country".
 
        To view the final data in **Product_Sales_Country** view, click on the **Data Viewer Icon**.
 
@@ -92,7 +92,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
       > Note: Incase of **Delayed Data Viewing** message, scroll down and click on **View Data**, in order to load the data.
       > ![New View](images/viewdata.png)
 
-13. 👉 Save and deploy the **Product_Sales_Country** view
+15. 👉 Save and deploy the **Product_Sales_Country** view
     
       ![Save](images/SaveView.png)
 
