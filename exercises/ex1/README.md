@@ -35,42 +35,38 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![New View](images/V_Data_Builder.png)
 
-3. 👉 In the Repository section, search for **DA264.**
-    
-      ![New View](images/search.png)
-
-4. 👉 Navigate to the **Shared Objects** from Repository, expand the views and drag and drop the following 3 views into the canvas
+3. 👉 Navigate to the **Shared Objects** from Repository, expand the views and drag and drop the following 3 views into the canvas
       - product_sku_transactions_view
       - Product_Sales
       - hits_sessions_country_view
 
       ![New View](images/View1.png)
 
-5. 👉 Drag and move **product_sku_transaction_view** on top of **Product_Sales** to create a **JOIN**
+4. 👉 Drag and move **product_sku_transaction_view** on top of **Product_Sales** to create a **JOIN**
 
       ![Join](images/join1.png)
 
-6. 👉 Define the following **JOIN** conditions:
+5. 👉 Define the following **JOIN** conditions:
     
       - Join Type: *Inner*
       - Mappings (see screenshot below): DATE->DATE, Product_SKU->Product_SKU, transaction_id->transaction_id
 
       ![Join](images/join1map.png)
 
-7. 👉 Keep the Projection columns unchanged
+6. 👉 Keep the Projection columns unchanged
 
-8. 👉 Drag and move **Projection nide** on top of **hits_session_country_view** to create the second **JOIN**
+7. 👉 Drag and move **Projection node** on top of **hits_session_country_view** to create the second **JOIN**
    
       ![Join](images/join2.png)
 
-9. 👉 Define the following **JOIN** conditions:
+8. 👉 Define the following **JOIN** conditions:
     
       - Join Type: *Inner*
       - Mappings (see screenshot): DATE->DATE, Country->Country
 
       ![Join](images/join2map.png)
 
-10. 👉 Finalise the view by giving a name, semantic type and expose for consumption
+9. 👉 Finalise the view by giving a name, semantic type and expose for consumption
     
     - Business Name: *Product_Sales_Country*
     - Technical Name: *Product_Sales_Country*
@@ -79,15 +75,15 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
    
       ![Join](images/finalview1.png)
 
-11. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
+10. 👉 Create a new **Association**, search for the *"Time Dimension - Day"* and add it as a target.
     
       ![Join](images/association2.png)
 
-12. 👉 Create the following mapping: **DATE->Date**
+11. 👉 Create the following mapping: **DATE->Date**
     
       ![Join](images/assoc_mapping2.png)
 
-13. 👉 Now as we have successfully created the new view "Product Sales Country".
+12. 👉 Now as we have successfully created the new view "Product Sales Country".
 
        To view the final data in **Product_Sales_Country** view, click on the **Data Viewer Icon**.
 
@@ -96,7 +92,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
       > Note: Incase of **Delayed Data Viewing** message, scroll down and click on **View Data**, in order to load the data.
       > ![New View](images/viewdata.png)
 
-14. 👉 Save and deploy the **Product_Sales_Country** view
+13. 👉 Save and deploy the **Product_Sales_Country** view
     
       ![Save](images/SaveView.png)
 
